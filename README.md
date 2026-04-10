@@ -10,10 +10,10 @@ This project is built for **learning and practicing Clean Architecture** in a Re
 
 It demonstrates how to:
 
-* Separate concerns using layers
-* Manage API calls cleanly using Axios
-* Structure a scalable mobile application
-* Implement navigation and detail screens
+- Separate concerns using layers
+- Manage API calls cleanly using Axios
+- Structure a scalable mobile application
+- Implement navigation and detail screens
 
 ---
 
@@ -27,25 +27,25 @@ Presentation → Domain → Data → Core
 
 ### 🔹 Presentation Layer
 
-* UI (Screens, Components)
-* Navigation
-* Handles user interaction
+- UI (Screens, Components)
+- Navigation
+- Handles user interaction
 
 ### 🔹 Domain Layer
 
-* Business logic
-* Use cases
-* Repository interfaces
+- Business logic
+- Use cases
+- Repository interfaces
 
 ### 🔹 Data Layer
 
-* API calls (PokeAPI)
-* Repository implementations
-* Data mapping
+- API calls (PokeAPI)
+- Repository implementations
+- Data mapping
 
 ### 🔹 Core Layer
 
-* Shared utilities (Axios, constants)
+- Shared utilities (Axios, constants)
 
 ---
 
@@ -56,7 +56,7 @@ Presentation → Domain → Data → Core
 ```bash
 app/
 ├── presentation/
-│  
+│
 │
 ├── domain/
 │   ├── models/
@@ -88,48 +88,42 @@ app/
 
 ## ✨ Features
 
-* 📋 Pokémon List
-* 🔍 Pokémon Details Screen
-* 🖼️ Pokémon Images
-* 📊 Stats (HP, Attack, Defense, etc.)
-* 🔄 Clean Architecture implementation
+- 📋 Pokémon List
+- 🔍 Pokémon Details Screen
+- 🖼️ Pokémon Images
+- 📊 Stats (HP, Attack, Defense, etc.)
+- 🔄 Clean Architecture implementation
 
 ---
 
 ## 📦 Tech Stack
 
-* React Native (Expo)
-* TypeScript
-* Axios
-* React Navigation
+- React Native (Expo)
+- TypeScript
+- Axios
+- React Navigation
 
 ---
 
 ## 🧪 Future Improvements
 
-* 🔎 Search Pokémon
-* ⭐ Favorites feature
-* 📡 Offline caching
-* 🧪 Unit testing (Jest)
-* 🎨 UI/UX improvements
+- 🔎 Search Pokémon
+- ⭐ Favorites feature
+- 📡 Offline caching
+- 🧪 Unit testing (Jest)
+- 🎨 UI/UX improvements
 
 ---
 
 ## 📸 Screenshots
 
-> *(Not available for now)*
+> _(Not available for now)_
 
 ---
 
 ## 🤝 Contributing
 
 Contributions are welcome! Feel free to fork this repo and submit a pull request.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
 
 ---
 
